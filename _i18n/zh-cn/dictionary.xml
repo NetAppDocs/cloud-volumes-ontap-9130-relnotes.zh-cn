@@ -302,7 +302,6 @@ HA对：18个、在一个节点中^1^</block>
   <block id="a1834fbcd2847d469ef79f5526dcee65" category="inline-link">有关 EC2 实例类型的最新完整详细信息，请参见 AWS</block>
   <block id="98ade5346ada08656e0c7b517b695d0f" category="paragraph">每个 Cloud Volumes ONTAP 许可证支持不同的 EC2 实例类型。为方便起见，下表显示了每个受支持实例类型的 vCPU ， RAM 和带宽。<block ref="7fe5ce03f92ccda8dcb0aa0fab836a1f" category="inline-link-rx"></block>。</block>
   <block id="c7d741925ef81824617c6a2975104e27" category="inline-link">NetApp 技术报告 4383 ：使用应用程序工作负载在 Amazon Web Services 中对 Cloud Volumes ONTAP 进行性能特征描述</block>
-  <block id="5070622feb6e4e88eeee7983bad01de6" category="paragraph">下表中显示的带宽与每个实例类型的 AWS 限制一致。这些限制与 Cloud Volumes ONTAP 所能提供的功能不完全一致。有关预期性能，请参见<block ref="21181a62240b2a52719451cc8d855312" category="inline-link-rx"></block>。</block>
   <block id="4a7243646d30fc1e81eca2df9826cc03" category="cell">支持的实例</block>
   <block id="5d56dbd20d9ee1ab8a722ff12e331953" category="cell">vCPU</block>
   <block id="e53619c1fe611a51eeeb8d148ba6e532" category="cell">RAM</block>
@@ -716,4 +715,5 @@ HA对：18个、在一个节点中^1^</block>
   <block id="ae809759e1518d5c4c2019b9c03f15a1" category="list-text">从ONTAP 9.12.1P2开始、此限制为128 TB。在ONTAP 9.11.1及更早版本中、此限制为16 TB。</block>
   <block id="23a69cce1857cb7ad696abba7e98194d" category="list-text">从Cloud Volumes ONTAP 9.12.1 P2和9.13.0 P2开始、可以使用System Manager和ONTAP命令行界面创建最大大小为300 TiB的FlexVol卷。</block>
   <block id="ea8e9cb87ad8076ed2bdd562222045c8" category="cell">300 TB</block>
+  <block id="b710bbf07a9ba1fa06f2e6f4e77a42db" category="paragraph">下表中显示的带宽与每个实例类型的 AWS 限制一致。这些限制与 Cloud Volumes ONTAP 所能提供的功能不完全一致。有关预期性能，请参见<block ref="c23654021de34c23e6d408104aa3bf49" category="inline-link-rx"></block>。</block>
 </blocks>
