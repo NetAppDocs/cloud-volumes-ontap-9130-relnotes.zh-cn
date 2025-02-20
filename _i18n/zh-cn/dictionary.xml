@@ -612,7 +612,6 @@ HA对：18个、在一个节点中^1^</block>
   <block id="8a11b7df22322ab2814174e7745c863f" category="inline-link">ONTAP 注意事项</block>
   <block id="a65d010a2b24f9e4a0919b7faf52d022" category="list-text"><block ref="a65d010a2b24f9e4a0919b7faf52d022" category="inline-link-rx"></block></block>
   <block id="dc0f989b2f6bd3e7bf961fb6ea788d85" category="summary">本发行说明介绍了Cloud Volumes ONTAP 9.13.0的新增功能、限制和已知问题。</block>
-  <block id="f53ab0fd2ad9b3e113196ed1a6d6792a" category="doc">Cloud Volumes ONTAP 9.13.0发行说明</block>
   <block id="b889869e31827a33530d6fd02141fdb5" category="summary">Azure 支持多种 Cloud Volumes ONTAP 配置。</block>
   <block id="e4b60b51b40a0907e38b3293d36780e6" category="doc">Azure 中支持的配置</block>
   <block id="9f1dc929787c1a2d05667987a87c083b" category="paragraph">Cloud Volumes ONTAP 在 Azure 中可作为单节点系统和高可用性（ HA ）节点对提供，以实现容错和无中断运行。</block>
@@ -689,7 +688,6 @@ HA对：18个、在一个节点中^1^</block>
   <block id="dd490b81914dd945601e442a41cb4222" category="sidebar">NetApp 社区</block>
   <block id="bd5465eb0e8cf8f303aee7ea9420c8b1" category="sidebar">BlueXP博客</block>
   <block id="ad203e818e0c9d7f42f1c260b33875f3" category="sidebar">云网络研讨会</block>
-  <block id="da38098873cb3db962a9491ab33ff93d" category="sidebar">发行说明主页</block>
   <block id="4847e034bb0a55fcbc8a3380d6a3ab80" category="sidebar">AWS</block>
   <block id="3a580f142203677f1f0bc30898f63f53" category="sidebar">Azure 酒店</block>
   <block id="482723983a4f2af954e36ff41e567451" category="sidebar">已知限制</block>
@@ -716,4 +714,7 @@ HA对：18个、在一个节点中^1^</block>
   <block id="23a69cce1857cb7ad696abba7e98194d" category="list-text">从Cloud Volumes ONTAP 9.12.1 P2和9.13.0 P2开始、可以使用System Manager和ONTAP命令行界面创建最大大小为300 TiB的FlexVol卷。</block>
   <block id="ea8e9cb87ad8076ed2bdd562222045c8" category="cell">300 TB</block>
   <block id="b710bbf07a9ba1fa06f2e6f4e77a42db" category="paragraph">下表中显示的带宽与每个实例类型的 AWS 限制一致。这些限制与 Cloud Volumes ONTAP 所能提供的功能不完全一致。有关预期性能，请参见<block ref="c23654021de34c23e6d408104aa3bf49" category="inline-link-rx"></block>。</block>
+  <block id="5b538967bf32882139a5639328eec6d7" category="doc">Cloud Volumes ONTAP 9.13.0发行说明</block>
+  <block id="c3647f40e3574e0e6f49e20c19135bfa" category="section-title">使用Azure VM扩展的限制</block>
+  <block id="9d167ed7d52d81da8d83590ec3b5a4af" category="paragraph">Cloud Volumes ONTAP不支持在部署中使用Azure虚拟机(VM)扩展和VM应用程序。在Azure中将Cloud Volumes ONTAP与VM扩展结合使用会导致操作延迟、NetApp建议避免这些延迟。</block>
 </blocks>
