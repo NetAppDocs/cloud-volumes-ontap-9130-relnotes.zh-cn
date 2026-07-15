@@ -18,6 +18,7 @@ Cloud Volumes ONTAP 具有存储配置限制，可提供可靠的操作。为获
 
 
 
+[[maximum-system-capacity-by-license]]
 == 按许可证计算的最大系统容量
 
 Cloud Volumes ONTAP 系统的最大系统容量取决于其许可证。最大系统容量包括基于磁盘的存储以及用于数据分层的对象存储。
@@ -56,6 +57,7 @@ NetApp 不支持超过系统容量限制。如果您达到许可的容量限制�
 
 
 
+[[aggregate-limits]]
 == 聚合限制
 
 Cloud Volumes ONTAP 将 Google 云平台磁盘分组为 _aggreges_ 。聚合可为卷提供存储。
@@ -89,6 +91,7 @@ Cloud Volumes ONTAP 将 Google 云平台磁盘分组为 _aggreges_ 。聚合可�
 
 
 
+[[disk-and-tiering-limits]]
 == 磁盘和分层限制
 
 下表显示了单独使用磁盘以及将磁盘和冷数据分层到对象存储的最大系统容量。磁盘限制特定于包含用户数据的磁盘。限制不包括启动磁盘、根磁盘或NVRAM。
@@ -117,6 +120,7 @@ Cloud Volumes ONTAP 将 Google 云平台磁盘分组为 _aggreges_ 。聚合可�
 
 
 
+[[storage-vm-limits]]
 == Storage VM 限制
 
 在某些配置中，您可以为 Cloud Volumes ONTAP 创建其他 Storage VM （ SVM ）。
@@ -161,6 +165,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-managing-sv
 
 
 
+[[logical-storage-limits]]
 == 逻辑存储限制
 
 [cols="22,22,56"]
@@ -198,6 +203,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-managing-sv
 
 
 
+[[iscsi-storage-limits]]
 == iSCSI 存储限制
 
 [cols="3*"]
@@ -239,6 +245,7 @@ https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-managing-sv
 |===
 
 
+[[cloud-volumes-ontap-ha-pairs-do-not-support-immediate-storage-giveback]]
 == Cloud Volumes ONTAP HA 对不支持即时存储交还
 
 节点重新启动后，配对节点必须先同步数据，然后才能返回存储。重新同步数据所需的时间取决于节点关闭时客户端写入的数据量以及交还期间的数据写入速度。

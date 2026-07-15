@@ -20,12 +20,14 @@ Cloud Volumes ONTAP 9.13.0提供了一些新的增强功能。
 
 
 
+[[9-13-0-ga-5-march-2023]]
 == 9.13.0 GA (2023年3月5日)
 
 Cloud Volumes ONTAP 9.13.0的通用发布(GA)版本现在可在AWS、Azure和Google Cloud中使用。此版本包含以下新增功能和增强功能：
 
 
 
+[[flash-cache-and-high-write-speed-in-google-cloud]]
 === Google Cloud中的Flash Cache和高写入速度
 
 现在、对于Cloud Volumes ONTAP 9.13.0版本的特定实例、可支持闪存、高写入速度和8、896字节的高最大传输单元(MTU)。
@@ -34,6 +36,7 @@ Cloud Volumes ONTAP 9.13.0的通用发布(GA)版本现在可在AWS、Azure和Goo
 
 
 
+[[image-verification-in-google-cloud]]
 === Google Cloud中的映像验证
 
 现在、我们提供了增强的安全功能来验证通过Google Cloud导出的Cloud Volumes ONTAP 映像文件的签名。
@@ -42,6 +45,7 @@ link:https://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/concept-gcp
 
 
 
+[[new-instance-support-in-google-cloud]]
 === Google Cloud中的新实例支持
 
 现在、对于Cloud Volumes ONTAP 单节点部署和Google Cloud中的高可用性部署、Freemium、PAYGO Premium、基于节点的BYOL和基于容量的许可证支持两种新的实例类型。
@@ -54,12 +58,14 @@ link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-config
 
 
 
+[[upgrade-notes]]
 == 升级说明
 
 通读这些注释、了解有关升级到此版本的更多信息。
 
 
 
+[[how-to-upgrade]]
 === 如何升级
 
 必须从BlueXP完成Cloud Volumes ONTAP 升级。您不应使用 System Manager 或命令行界面升级 Cloud Volumes ONTAP 。这样做可能会影响系统稳定性。
@@ -68,12 +74,14 @@ link:http://docs.netapp.com/us-en/cloud-manager-cloud-volumes-ontap/task-updatin
 
 
 
+[[supported-upgrade-path]]
 === 支持的升级路径
 
 您可以从9.12.1版本升级到Cloud Volumes ONTAP 9.13.0。BlueXP将提示您将符合条件的Cloud Volumes ONTAP 系统升级到此版本。
 
 
 
+[[required-version-of-the-connector]]
 === 所需版本的Connector
 
 要部署新的Cloud Volumes ONTAP 9.13.0系统并将现有系统升级到9.13.0、BlueXP Connector必须运行3.9.26或更高版本。
@@ -83,6 +91,7 @@ TIP: 默认情况下，连接器会自动升级，因此您应运行最新版本
 
 
 
+[[downtime]]
 === 停机
 
 * 升级单节点系统会使系统脱机长达 25 分钟，在此期间 I/O 会中断。
@@ -91,6 +100,7 @@ TIP: 默认情况下，连接器会自动升级，因此您应运行最新版本
 
 
 
+[[c4-m4-and-r4-instances-no-longer-supported]]
 === 不再支持c4、m4和r4实例
 
 在AWS中、Cloud Volumes ONTAP 不再支持C4、M4和M4 EC2实例类型。如果现有系统运行的是C4、M4或r4实例类型、则必须更改为c5、M5或R5实例系列中的实例类型。只有在更改实例类型后才能升级到此版本。
